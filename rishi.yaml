@@ -1,0 +1,12 @@
+---
+name : 'Rishi'
+age : 26
+working: True
+
+tasks:
+  - gym 
+  - work
+  - take care of dogesh
+address:
+  street: Griffith avnue
+  Eircode: D09XW5Y

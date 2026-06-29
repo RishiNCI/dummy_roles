@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  become: yes
+  connection: local
+
+  tasks: 
+    - name : delete user rishi
+      user:
+        name: Rishi
+        state: absent
+

@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  become: yes
+  connection: local
+
+  tasks:
+    - name : Ensure bob exists
+      user: 
+        name: Rishi
+        state: present
